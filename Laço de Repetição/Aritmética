@@ -1,0 +1,26 @@
+
+import java.util.*;
+public class Aritmetica {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		double n=0, itInicial, itFinal, q;
+		int i=1;
+		
+		System.out.println("Digite quantos números você deseja obter a média");
+		q=ler.nextDouble();
+		
+		System.out.println("Digite o intervalo inicial");
+		itInicial=ler.nextDouble();
+		
+		System.out.println("Digite o intervalo final");
+		itFinal=ler.nextDouble();
+		
+		while(itInicial>n && itFinal<n) {
+			
+		}
+		
+		
+		
+	}
+
+}
