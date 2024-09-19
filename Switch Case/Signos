@@ -1,0 +1,114 @@
+import java.util.*;
+public class signo {
+public static void main(String[] args) {
+	Scanner ler= new Scanner (System.in);
+	int mes, dia;
+	System.out.println("Informe o mês:");
+	mes=ler.nextInt();
+	System.out.println("Informe o dia:");
+	dia=ler.nextInt();
+	
+	switch (mes) {
+	
+	case 1:
+		if (dia<20) {
+			System.out.println("Você é de Capricornio");
+		}else {
+			System.out.println("Você é de Aquario");
+		}
+		break;
+		
+	case 2:
+		if (dia<19) {
+			System.out.println("Você é de Aquario");
+		}else {
+			System.out.println("Você é de Peixes");
+		}
+		break;
+		
+	case 3:
+		if (dia<20) {
+			System.out.println("Você é de Peixes");
+		}else {
+			System.out.println("Você é de aries");
+		}
+		break;
+		
+	case 4:
+		if (dia<20) {
+			System.out.println("Você é de aries");
+		}else {
+			System.out.println("Você é de Touro");
+		}
+		break;
+		
+	case 5:
+		if (dia<20) {
+			System.out.println("Você é de Touro");
+		}else {
+			System.out.println("Você é de Gemeos");
+		}
+		break;
+		
+	case 6:
+		if (dia<20) {
+			System.out.println("Você é de Gemeos");
+		}else {
+			System.out.println("Você é de Cancer");
+		}
+		break;
+		
+	case 7:
+		if (dia<20) {
+			System.out.println("Você é de Cancer");
+		}else {
+			System.out.println("Você é de Leão");
+		}
+		break;
+		
+	case 8:
+		if (dia<20) {
+			System.out.println("Você é de Leão");
+		}else {
+			System.out.println("Você é de Virgem");
+		}
+		break;
+		
+	case 9:
+		if (dia<20) {
+			System.out.println("Você é de Virgem");
+		}else {
+			System.out.println("Você é de Libra");
+		}
+		break;
+		
+	case 10:
+		if (dia<20) {
+			System.out.println("Você é de Libra");
+		}else {
+			System.out.println("Você é de Escorpiao");
+		}
+		break;
+		
+	case 11:
+		if (dia<20) {
+			System.out.println("Você é de Escorpiao");
+		}else {
+			System.out.println("Você é de Sagitario");
+		}
+		break;
+		
+	case 12:
+		if (dia<20) {
+			System.out.println("Você é de Sargitario");
+		}else {
+			System.out.println("Você é de Capricornio");
+		}
+		break;
+		
+	default:
+		System.out.println("Mês não encontrado");
+	ler.close();
+	}
+}
+}
