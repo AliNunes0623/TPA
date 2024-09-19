@@ -1,0 +1,49 @@
+import java.util.*;
+public class Faixaetaria {
+	public static void main(String[] args) {
+		Scanner ler= new Scanner (System.in);
+		int id=1, i=1; 
+		double p, q=0;
+		
+	
+	while (i<16) {
+		System.out.println("Digite a idade da "+i+ " pessoa");
+		id=ler.nextInt();
+		i++;
+	}
+	
+	if (id<=15) {
+		while (id==15) {
+			q++;
+		}
+		p=q*15/100;
+		
+	}else if (id<=30) {
+		while (id>=30) {
+			q++;
+		}
+		p=q*15/100;
+		
+	}else if (id<=45) {
+		while (id>=45) {
+			q++;
+		}
+		p=q*15/100;
+		
+	}else if (id<=60) {
+		while (id>=60) {
+			q++;
+		}
+		p=q*15/100;
+		
+	}else {
+		while (id>60) {
+			q++;
+		}
+		p=q*15/100;
+	}
+	System.out.println("tem " +q+ " de pessoas");
+	System.out.println("Em cada faixa et�ria tem " +p+ " % de pessoas");
+}
+}
+
